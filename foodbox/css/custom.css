@@ -1,0 +1,12 @@
+body > header {
+    z-index: 10;
+}
+body > header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 98%;
+    padding: 0 1%;
+    text-align: center;
+}
