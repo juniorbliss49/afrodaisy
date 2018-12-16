@@ -20,9 +20,6 @@ Route::get('sms', function()
 {
   $client = new Client();
   $response = $client->post("https://api.infobip.com/sms/1/text/single", [
-    'headers' => ['Content-Type' => 'application/json',
-                  'Authorization' => 'Basic S2FqYW5kaTp1Y2hlYmxpc3M0OQ=='],
-    'json'    => ['from'=> 'Afrodaisy', 'to' => '2348146539245', 'text'=> 'ebere jkvg jghvghchfgc hgvghcvhgf']
 ]);
 
 });
